@@ -1,6 +1,4 @@
-﻿
-
-namespace Tabuleiro
+﻿namespace tabuleiro
 {
     class Posicao
     {
@@ -12,6 +10,7 @@ namespace Tabuleiro
             this.linha = linha;
             this.coluna = coluna;
         }
+        //converte o objetoto para string
         public override string ToString()
         {
             return linha
